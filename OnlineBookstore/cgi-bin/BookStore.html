@@ -1,0 +1,62 @@
+<html>
+<center>
+<form method="post" action="http://undcemcs02.und.edu/~mdsaifur.rahman.1/cgi-bin/BookStore.cgi" target="view">
+ <table width="90%" bgcolor="058989" cellspacing="3" cellpadding="10" border="0" class="shadow">
+  <tr bgcolor="EDFCFC">
+   <td><font size="+1">
+   <center><br />
+    <font face="Verdana, Arial, Helvetica" size="-1">
+     <h1>Saif's Bookstore!</h1>
+
+<input type="radio"   name="radio"    value="insert" /> Insert Books Data<br/><br/>
+ ISBN:<input type="text" name="ISBN"  placeholder ="Insert here.." size="24" /> <br/> <br />
+ Title:<input type="text" name="title" placeholder ="Insert here.." size="24" /><br/> <br />
+ Price:<input type="text" name="price" placeholder ="Insert here.." size="24" /> <br /> <br />
+<!--Subject:<select type="text" name="subject_id" multiple >-->
+
+Subject:<select type="text" name="subject_name" multiple >
+<option value="Computer Science"/>Computer Science
+<option value="Electrical Engineering"/>Electrical Engineering
+<option value="Mathematics"/>Mathematics
+<option value="Civil Engineering"/>Civil Engineering
+<option value="Chemistry"/>Chemistry
+<option value="Mechanical Engineering"/>Mechanical Engineering
+<option value="English"/>English
+<option value="Physics"/>Physics
+<option value="Mathematics"/>Mathematics
+
+
+
+
+</select>
+ <br /> <br /> <br /> <br />
+
+     <input type="radio"   name="radio"    value="List All Books" checked="checked"/> List All Books
+ <input type="radio"   name="radio"    value="List All Subjects" /> List All Subjects
+ <input type="radio"   name="radio"    value="Master Clear" /> Clear System
+  <input type="radio"   name="radio"    value="search" /> Search <br />
+  Books Title:<input type="text" name="search" placeholder ="Search here.." size="24" /> <br /> <br />
+  <input type="submit" name="act"   value="Submit" />
+  <input type="submit"   name="act"    value="HTML source" />
+  <input type="submit"   name="act"    value="CGI source" />
+  <input type="submit"   name="act"    value="Perl source" />
+  <input type="submit"   name="act"    value="Java source" />
+  <input type="reset"                  value="Reset" />
+  <input type="submit"   name="act"    value="Master Clear" />
+   </center></font>
+   </td>
+  </tr>
+  <tr bgcolor="EDFCFC">
+   <td>
+    <iframe frameborder="0" width="100%" height="700" src="http://undcemcs02.und.edu/~mdsaifur.rahman.1/bg/bground.png" name="view">
+      <div  name ="view">
+    <iframe frameborder="0" width="100%" height="300"  name="view">
+    </iframe>
+    </div>
+    </iframe>
+   </td>
+  </tr>
+ </table><br />
+</form>
+</center>
+</html>
