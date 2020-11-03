@@ -3,11 +3,11 @@ This Project is developed using Oracle Relational Database Management feature. I
 
 This project can do the following.
 
-Entering books
-Listing all books
-Updating a book price
-Listing all subjects
-Searching for books
-Deleting multiple books
-Showing book data
-Showing subject data
+(i) Entering books
+(ii) Listing all books
+(iii) Updating a book price
+(iv) Listing all subjects
+(v) Searching for books
+(iv) Deleting multiple books
+(v) Showing book data
+(v) Showing subject data
