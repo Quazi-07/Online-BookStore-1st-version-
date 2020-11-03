@@ -9,8 +9,8 @@ import  oracle.jdbc.pool.OracleDataSource;
 
 class  BookStore {
     public static void  main( String args[ ] ) throws SQLException {
-        String user     = "C##mdsaifur.rahman.1";
-        String password = "rahman9451";
+        String user     = "C##username";
+        String password = "passward";
         String database = "65.52.222.73:1521/cdb1";
 
         // Open an OracleDataSource and get a connection.
